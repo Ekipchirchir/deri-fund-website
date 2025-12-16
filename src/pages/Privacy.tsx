@@ -38,15 +38,15 @@ const Privacy = () => {
           <div className="max-w-3xl mx-auto">
             <div className="mb-10">
               <h1 className="text-4xl font-bold mb-4">Privacy Policy</h1>
-              <p className="text-muted-foreground">Last updated: December 15, 2025</p>
+              <p className="text-muted-foreground">Effective: December 15, 2025</p>
             </div>
 
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-8">
-                This Privacy Policy describes our policies and procedures on the collection, use, and disclosure of your information when you use the Service and informs you about your privacy rights and how the law protects you.
+                This Privacy Policy explains our practices regarding the collection, use, and disclosure of your personal information when you use the Service. It also outlines your privacy rights and the legal protections available to you.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                We use your personal data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.
+               We use your personal data to deliver and enhance the Service. By continuing to use the Service, you agree to the collection and use of your information as described in this Privacy Policy.
               </p>
 
               <section className="mb-8">
@@ -64,13 +64,13 @@ const Privacy = () => {
                   <li><strong>Affiliate</strong> means an entity that controls, is controlled by, or is under common control with a party.</li>
                   <li><strong>Application</strong> refers to Deri-Fund, the software program provided by the Company.</li>
                   <li><strong>Company</strong> (referred to as "the Company", "We", "Us", or "Our") refers to Dericash Limited, Eldoret, Kenya.</li>
+                  <li><strong>Service Provider</strong> means any natural or legal person who processes data on behalf of the Company.</li>
+                  <li><strong>Usage Data</strong> refers to data collected automatically from use of the Service.</li>
+                  <li><strong>You</strong> means the individual accessing or using the Service.</li>
                   <li><strong>Country</strong> refers to Kenya.</li>
                   <li><strong>Device</strong> means any device that can access the Service.</li>
                   <li><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</li>
                   <li><strong>Service</strong> refers to the Application.</li>
-                  <li><strong>Service Provider</strong> means any natural or legal person who processes data on behalf of the Company.</li>
-                  <li><strong>Usage Data</strong> refers to data collected automatically from use of the Service.</li>
-                  <li><strong>You</strong> means the individual accessing or using the Service.</li>
                 </ul>
               </section>
 
@@ -92,7 +92,7 @@ const Privacy = () => {
 
                 <h4 className="font-semibold mb-2">Usage Data</h4>
                 <p className="text-muted-foreground leading-relaxed">
-                  Usage Data is collected automatically when using the Service. Usage Data may include information such as your Device's Internet Protocol address (e.g., IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data.
+                  Usage Data is collected automatically when using the Service. Usage Data may include information such as your Device's Internet Protocol address (e.g., IP address), browser type, browser version, the pages of our Service that you visit, the time spent on those pages, unique device identifiers, the time and date of your visit, the time spent on the Service,and other diagnostic data.
                 </p>
               </section>
 
@@ -156,13 +156,13 @@ const Privacy = () => {
               <section className="mb-8">
                 <h2 className="text-2xl font-bold mb-4">Changes to this Privacy Policy</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date. You are advised to review this Privacy Policy periodically for any changes.
+                  We update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Effective" date. You are advised to review this Privacy Policy from time to time for any changes.
                 </p>
               </section>
 
               <section className="p-6 rounded-2xl border border-border">
                 <h2 className="text-xl font-semibold mb-4">Contact Us</h2>
-                <p className="text-muted-foreground mb-4">If you have any questions about this Privacy Policy, you can contact us:</p>
+                <p className="text-muted-foreground mb-4">If you have any questions, you can contact us:</p>
                 <ul className="space-y-2 text-muted-foreground">
                   <li>Email: <a href="mailto:dericash@gmail.com" className="text-primary">dericash@gmail.com</a></li>
                   <li>Phone: <a href="tel:+254795190887" className="text-primary">+254 795 190887</a></li>
