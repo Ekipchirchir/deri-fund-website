@@ -93,19 +93,19 @@ const Footer = () => {
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-primary" />
                 <a
-                  href="mailto:dericash@gmail.com"
+                  href="mailto:derifundc@gmail.com"
                   className="text-background/60 hover:text-background transition-colors"
                 >
-                  dericash@gmail.com
+                  derifundc@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-primary" />
                 <a
-                  href="tel:+254795190887"
+                  href="tel:+254729859861"
                   className="text-background/60 hover:text-background transition-colors"
                 >
-                  +254 795 190887
+                  +254 729 859 861
                 </a>
               </li>
             </ul>
@@ -122,10 +122,10 @@ const Footer = () => {
           </p>
           <div className="flex items-center gap-6 text-sm">
             <Link to="/terms" className="text-background/40 hover:text-background transition-colors">
-              Terms
+              Terms of Use
             </Link>
             <Link to="/privacy" className="text-background/40 hover:text-background transition-colors">
-              Privacy
+              Privacy Policy
             </Link>
           </div>
         </div>

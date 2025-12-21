@@ -164,9 +164,9 @@ const Privacy = () => {
                 <h2 className="text-xl font-semibold mb-4">Contact Us</h2>
                 <p className="text-muted-foreground mb-4">If you have any questions, you can contact us:</p>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>Email: <a href="mailto:dericash@gmail.com" className="text-primary">dericash@gmail.com</a></li>
-                  <li>Phone: <a href="tel:+254795190887" className="text-primary">+254 795 190887</a></li>
-                  <li>WhatsApp: <a href="https://wa.me/254795190887" className="text-primary">+254 795 190887</a></li>
+                  <li>Email: <a href="mailto:derifundc@gmail.com" className="text-primary">derifundc@gmail.com</a></li>
+                  <li>Phone: <a href="tel:+254729859861" className="text-primary">+254 729 859 861</a></li>
+                  <li>WhatsApp: <a href="https://wa.me/254729859861" className="text-primary">+254 729 859 861</a></li>
                 </ul>
                 <p className="text-muted-foreground mt-4 pt-4 border-t border-border">
                   © 2025 Derifund. All Rights Reserved.

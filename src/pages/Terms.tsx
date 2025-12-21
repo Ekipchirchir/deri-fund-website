@@ -150,7 +150,7 @@ const Terms = () => {
                 <h2 className="text-xl font-semibold mb-4">Help & Contact</h2>
                 <p className="text-muted-foreground mb-4">Contact us via:</p>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>Email: <a href="mailto:dericash@gmail.com" className="text-primary">dericash@gmail.com</a></li>
+                  <li>Email: <a href="mailto:derifundc@gmail.com" className="text-primary">derifundc@gmail.com</a></li>
                   <li>Download: <a href="https://play.google.com/store" className="text-primary" target="_blank" rel="noopener noreferrer">Play Store</a></li>
                 </ul>
                 <p className="text-muted-foreground mt-4 pt-4 border-t border-border">
