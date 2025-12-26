@@ -58,7 +58,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://play.google.com/store"
+                  href="https://play.google.com/store/apps/details?id=com.dericash.derifund&hl=en"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-background/60 hover:text-background transition-colors"

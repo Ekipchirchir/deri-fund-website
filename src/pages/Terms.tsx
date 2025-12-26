@@ -151,7 +151,7 @@ const Terms = () => {
                 <p className="text-muted-foreground mb-4">Contact us via:</p>
                 <ul className="space-y-2 text-muted-foreground">
                   <li>Email: <a href="mailto:derifundc@gmail.com" className="text-primary">derifundc@gmail.com</a></li>
-                  <li>Download: <a href="https://play.google.com/store" className="text-primary" target="_blank" rel="noopener noreferrer">Play Store</a></li>
+                  <li>Download: <a href="https://play.google.com/store/apps/details?id=com.dericash.derifund&hl=en" className="text-primary" target="_blank" rel="noopener noreferrer">Play Store</a></li>
                 </ul>
                 <p className="text-muted-foreground mt-4 pt-4 border-t border-border">
                   © 2025 Dericash Limited. All Rights Reserved.

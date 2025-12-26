@@ -33,7 +33,7 @@ const HeroSection = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-up" style={{ animationDelay: "0.3s" }}>
               <Button size="lg" className="hero-gradient text-primary-foreground shadow-elevated hover:opacity-90 transition-all text-base px-8 h-14 rounded-xl group">
                 <Play className="w-5 h-5 mr-2 fill-current" />
-                <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
+                <a href="https://play.google.com/store/apps/details?id=com.dericash.derifund&hl=en" target="_blank" rel="noopener noreferrer">
                   Get on Play Store
                 </a>
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
