@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+const currentYear = new Date().getFullYear();
+
 const Terms = () => {
   return (
     <main className="min-h-screen bg-background">
@@ -154,7 +156,7 @@ const Terms = () => {
                   <li>Download: <a href="https://play.google.com/store/apps/details?id=com.dericash.derifund&hl=en" className="text-primary" target="_blank" rel="noopener noreferrer">Play Store</a></li>
                 </ul>
                 <p className="text-muted-foreground mt-4 pt-4 border-t border-border">
-                  © 2025 Dericash Limited. All Rights Reserved.
+                  © {currentYear} Dericash Limited. All Rights Reserved.
                 </p>
               </section>
             </div>

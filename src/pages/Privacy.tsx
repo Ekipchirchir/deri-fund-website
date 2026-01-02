@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+const currrentYear = new Date().getFullYear();
+
 const Privacy = () => {
   return (
     <main className="min-h-screen bg-background">
@@ -169,7 +171,7 @@ const Privacy = () => {
                   <li>WhatsApp: <a href="https://wa.me/254729859861" className="text-primary">+254 729 859 861</a></li>
                 </ul>
                 <p className="text-muted-foreground mt-4 pt-4 border-t border-border">
-                  © 2025 Derifund. All Rights Reserved.
+                  © {currrentYear} Derifund. All Rights Reserved.
                 </p>
               </section>
             </div>

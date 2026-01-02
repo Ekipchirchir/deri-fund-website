@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { Zap, Mail, Phone, Instagram, Twitter } from "lucide-react";
 
+const currentYear = new Date().getFullYear();
+
 const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-16">
@@ -118,7 +120,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-background/10 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-background/40 text-sm">
-            © 2025 Dericash Limited. All Rights Reserved.
+            © {currentYear} Dericash Limited. All Rights Reserved.
           </p>
           <div className="flex items-center gap-6 text-sm">
             <Link to="/terms" className="text-background/40 hover:text-background transition-colors">
