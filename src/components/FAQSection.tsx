@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     question: "How do I contact support?",
-    answer: "You can reach us via email at help.derifund@gmail.com, or through our in-app chat. We're also available on WhatsApp at +254 729 859 861.",
+    answer: "You can reach us via email at derifundc@gmail.com, or through our in-app chat. We're also available on WhatsApp at +254 729 859 861.",
   },
 ];
 
