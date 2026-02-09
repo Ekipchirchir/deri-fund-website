@@ -53,7 +53,7 @@ const Navbar = () => {
               </a>
             </Button>
             <Button className="hero-gradient text-primary-foreground shadow-elevated hover:opacity-90 transition-opacity">
-              Get Started
+              <a href="https://app.deri-fund.com" target="_blank" rel="noopener noreferrer">Login</a>
             </Button>
           </div>
 
@@ -87,7 +87,7 @@ const Navbar = () => {
                   </a>
                 </Button>
                 <Button className="hero-gradient text-primary-foreground">
-                  Get Started
+                  <a href="https://app.deri-fund.com" target="_blank" rel="noopener noreferrer">Login</a>
                 </Button>
               </div>
             </div>
