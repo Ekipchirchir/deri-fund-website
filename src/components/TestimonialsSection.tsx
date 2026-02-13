@@ -54,7 +54,7 @@ const TestimonialsSection = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-4">
             Testimonials
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
+          <h2 className="text-2xl sm:text-4xl lg:text-3xl font-bold mb-4">
             Loved by{" "}
             <span className="text-gradient">10,000+ Traders</span>
           </h2>

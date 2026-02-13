@@ -8,12 +8,6 @@ const stats = [
     description: "Traders trust Derifund daily",
   },
   {
-    icon: TrendingUp,
-    value: "$2M+",
-    label: "Monthly Volume",
-    description: "Processed transactions",
-  },
-  {
     icon: MapPin,
     value: "47",
     label: "Counties",
@@ -50,7 +44,7 @@ const MarketReachSection = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-4">
             Our Reach
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
+          <h2 className="text-2xl sm:text-4xl lg:text-3xl font-bold mb-4">
             Empowering Traders{" "}
             <span className="text-gradient">Across Kenya</span>
           </h2>
@@ -60,16 +54,16 @@ const MarketReachSection = () => {
         </div>
 
         {/* Stats Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {stats.map((stat, index) => (
             <div
               key={stat.label}
-              className="text-center p-8 rounded-2xl bg-card border border-border hover:shadow-soft transition-all"
+              className="text-center p-8 rounded-2xl bg-card border border-border  transition-all"
             >
-              <div className="w-16 h-16 rounded-2xl hero-gradient flex items-center justify-center mx-auto mb-4">
-                <stat.icon className="w-8 h-8 text-primary-foreground" />
+              <div className="w-12 h-12 rounded-2xl hero-gradient flex items-center justify-center mx-auto mb-4">
+                <stat.icon className="w-7 h-7 text-primary-foreground" />
               </div>
-              <div className="text-3xl font-bold mb-1">{stat.value}</div>
+              <div className="text-2xl font-semibold mb-1">{stat.value}</div>
               <div className="text-lg font-medium mb-1">{stat.label}</div>
               <div className="text-sm text-muted-foreground">{stat.description}</div>
             </div>

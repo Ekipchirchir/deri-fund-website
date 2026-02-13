@@ -9,7 +9,7 @@ const ContactSection = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-4">
             Contact Us
           </div>
-          <h2 className="text-1xl sm:text-4xl lg:text-3xl font-bold mb-4">
+          <h2 className="text-2xl sm:text-4xl lg:text-3xl font-bold mb-4">
             Get in Touch with{" "}
             <span className="text-gradient">Derifund</span>
           </h2>

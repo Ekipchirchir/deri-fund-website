@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Zap, Mail, Phone, Instagram, Twitter } from "lucide-react";
+import { Zap, Mail, Phone, Instagram, Twitter, Facebook, ChartBarIcon, PhoneCall } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
@@ -11,30 +11,44 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
-                <Zap className="w-5 h-5 text-primary-foreground" />
+              <div className="w-10 h-10 rounded-xl  flex items-center justify-center">
+                <img
+                  src="/og-image.png"
+                  alt="Derifund logo"
+                  className="w-full h-full object-contain"
+                />
               </div>
-              <span className="text-xl font-bold">Derifund</span>
+              <span className="text-xl font-bold">DERI-FUND</span>
             </Link>
             <p className="text-background/60 mb-6 leading-relaxed">
               Instant transfers between Deriv and M-PESA. Fast, secure, and reliable fund management for Kenyan traders.
             </p>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com"
+                href="tel:+254729859861"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"
+              >
+                <PhoneCall className="w-5 h-5" />
+              </a>
+
+              <a
+                href="https://www.instagram.com/derifund"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"
               >
                 <Instagram className="w-5 h-5" />
               </a>
+
               <a
-                href="https://twitter.com"
+                href="https://www.facebook.com/share/16uBau1euc/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"
               >
-                <Twitter className="w-5 h-5" />
+                <Facebook className="w-5 h-5" />
               </a>
             </div>
           </div>

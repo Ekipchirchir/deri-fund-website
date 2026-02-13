@@ -44,7 +44,7 @@ const FeaturesSection = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-4">
             Features
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
+          <h2 className="text-2xl sm:text-4xl lg:text-3xl font-bold mb-4">
             Everything You Need to{" "}
             <span className="text-gradient">Trade Smarter</span>
           </h2>
@@ -58,10 +58,10 @@ const FeaturesSection = () => {
           {features.map((feature, index) => (
             <div
               key={feature.title}
-              className="group p-6 lg:p-8 rounded-2xl bg-card border border-border hover:border-primary/50 hover:shadow-elevated transition-all duration-300"
+              className="group p-6 lg:p-8 rounded-2xl bg-card border border-border hover:border-primary/50  transition-all duration-300"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="w-14 h-14 rounded-2xl hero-gradient flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-12 h-12 rounded-2xl hero-gradient flex items-center justify-center mb-6  transition-transform">
                 <feature.icon className="w-7 h-7 text-primary-foreground" />
               </div>
               <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>

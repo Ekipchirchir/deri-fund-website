@@ -14,7 +14,7 @@ const CTASection = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
+          <h2 className="text-2xl sm:text-4xl lg:text-3xl font-bold text-primary-foreground mb-6">
             Ready to Start Trading?
           </h2>
           <p className="text-lg sm:text-xl text-primary-foreground/80 mb-10 max-w-2xl mx-auto">
@@ -34,11 +34,13 @@ const CTASection = () => {
             </Button>
             <Button
               size="lg"
-              variant="outline"
+              //variant="outline"
               className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 h-14 px-8 rounded-xl text-base"
             >
               <Globe className="w-5 h-5 mr-2" />
-              Web App Coming Soon
+              <a href="https://app.deri-fund.com" target="_blank" rel="noopener noreferrer">
+               Use Our Web App
+              </a>
             </Button>
           </div>
 
